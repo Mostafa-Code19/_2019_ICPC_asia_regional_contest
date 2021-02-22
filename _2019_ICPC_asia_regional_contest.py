@@ -10,16 +10,35 @@ class Q1:
         output = 0
 
         howMuchWeNeedForNextMonth = int(input('how Much We Need For Next Month? '))
-        howMuchWeHaveInCurrentMonth = int(inpu'how Much We Have In Current Month? '))
+        howMuchWeHaveInCurrentMonth = int(input('how Much We Have In Current Month? '))
+        
+        if howMuchWeHaveInCurrentMonth == None or howMuchWeNeedForNextMonth == None: return 'The input is None'
+        if howMuchWeNeedForNextMonth > standardAmountWeWillTake:
+            allStandardOilYouWillHave = standardAmountWeWillTake + howMuchWeHaveInCurrentMonth
+            output = (howMuchWeNeedForNextMonth - (allStandardOilYouWillHave)) * needMoreOilPrice + allStandardOilYouWillHave * standardPrice
+            return f'You should pay: {output}'
+        else:
+            output = howMuchWeHaveInCurrentMonth * standardPrice
+            return f'You need to pay: {output}'
 
-        if howMuchWeHaveInCurrentMonth == Noe or howMuchWeNeedForNextMonth == None: return 'The input is None'
-        if howMuchWeNeedForNextMonth > stand
+class Q2:
+    def problem():
+        return
+        
+    def solution():
+        return
+
+
+
+
+
+
 print('Write The question number with option: problem solution. \n Ex: Q2.problem')
 
 while True:
     try: 
         userInput = input()
-        x = (exec(ut} () )'))
+        x = (exec(f'print ( {userInput} () )'))
         
     except TypeError:
         print('question or option not available!')
