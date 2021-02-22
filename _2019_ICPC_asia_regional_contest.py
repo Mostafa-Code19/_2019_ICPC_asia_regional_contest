@@ -28,6 +28,11 @@ class Q2:
     def solution():
         return
 
+
+
+
+
+
 print('Write The question number with option: problem solution. \n Ex: Q2.problem')
 
 while True:
