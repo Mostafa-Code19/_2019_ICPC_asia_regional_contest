@@ -23,7 +23,8 @@ class Q1:
 
 class Q2:
     def problem():
-        return
+        return 'Again, Neverland has experienced a very bad economic condition over the past few months. The value ofOshloob, the national currency of Neverland, changes against one unit of gold very rapidly. People in Neverland,all wondering about their savings, are trying to exchange their savings with gold coins \n .Dr. Predictman who is a data scientist, has obtained a prediction of the price (in Oshloobs) of a gold coin forthe next n days based on the existing data over the past 40 years. He believes his prediction, and now he wantto increase his savings based on it. He was wondering how much savings he has at the end of the n-th dayassuming that he has c Oshloobs at the beginning of the first day. Since Dr. Predictman is not a programmer,he asks you to help to find his answer.'
+
         
     def solution():
         return
